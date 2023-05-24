@@ -37,8 +37,8 @@ NodeJS: https://nodejs.org/en/download
 
 
 # Screenshots
-![cypress-cucumber-html-report](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/cypress/cucumber-json/cucumber-report.html/index.html "cypress-cucumber-html-report")
-![cypress-cloud-runner-view-report](https://github.com/alagamai/cypress-api-automation-framework/blob/main/cypress/images/cloud-runner-view-output.png "cypress-cloud-runner-view-report")
+![cypress-cucumber-html-report1](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/images/report1.png "cypress-cucumber-html-report1")
+![cypress-cucumber-html-report2](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/images/report2.png "cypress-cucumber-html-report2")
 
 
 ## Use
