@@ -1,0 +1,35 @@
+{
+	"name": "cypress-bdd-cucumber-html-report",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "npx cypress open",
+		"cy:test": "npx cypress run"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@faker-js/faker": "^8.0.1",
+		"cypress": "^12.12.0",
+		"cypress-localstorage-commands": "^2.2.3"
+	},
+	"cypress-cucumber-preprocessor": {
+		"json": {
+			"enabled": true,
+			"output": "cypress/cucumber-json/cucumber-report.json"
+		},
+		"html": {
+			"enabled": true
+		},
+		"messages": {
+			"enabled": true
+		}
+	},
+	"dependencies": {
+		"@badeball/cypress-cucumber-preprocessor": "^17.1.1",
+		"@cypress/browserify-preprocessor": "^3.0.2",
+		"multiple-cucumber-html-reporter": "^3.4.0"
+	}
+}
