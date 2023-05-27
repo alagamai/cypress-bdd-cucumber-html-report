@@ -32,7 +32,8 @@ NodeJS: https://nodejs.org/en/download
 8. Update the file as below 
   	  jsonDir: 'cypress/cucumber-json/',     // Do not add file name here; only the folder path should be given 
    	 reportPath: 'cypress/cucumber-json/cucumber-report.html',
-9. Run the tool as below to generate html report from json file 
+9. execute test using sudo npx cypress run  
+10. Run the tool as below to generate html report from json file 
 	 sudo node cucumber-html-report.js  
 
 
