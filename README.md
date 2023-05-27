@@ -44,7 +44,7 @@ NodeJS: https://nodejs.org/en/download
 
 ## Use
 
-1. Checkout the project from git - git clone https://github.com/alagamai/cypress-api-automation-framework.git
+1. Checkout the project from git - git clone https://github.com/alagamai/cypress-bdd-cucumber-html-report
 2. Navigate to the project root directory -cypress-bdd-cucumber-html-report
 3. Install dependencies with `npm install` 
 4. See scripts in `package.json` and run the tests. The main ones are
