@@ -50,9 +50,10 @@ NodeJS: https://nodejs.org/en/download
 4. See scripts in `package.json` and run the tests. The main ones are
 * `npm run cy:open` - runs Cypress in GUI mode
 * `npm run cy:test` - runs cypress test in headless mode
-5. run node cucumber-html-report.js  
+5. `sudo npm run cy:json-to-html` OR `sudo node cucumber-html-report.js`  -  converts json file to cucumber html report 
 6. view report at cypress/cucumber-json/cucumber-report.html/index.html
     
 # Application under test
 
 https://demo.nopcommerce.com/
+https://automationteststore.com
