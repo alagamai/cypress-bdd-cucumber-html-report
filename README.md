@@ -40,7 +40,7 @@ NodeJS: https://nodejs.org/en/download
 # Screenshots
 ![cypress-cucumber-html-report1](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/images/report1.png "cypress-cucumber-html-report1")
 ![cypress-cucumber-html-report2](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/images/report2.png "cypress-cucumber-html-report2")
-
+![cypress-cucumber-html-report3](https://github.com/alagamai/cypress-bdd-cucumber-html-report/blob/main/images/report3.png "cypress-cucumber-html-report3")
 
 ## Use
 
