@@ -16,9 +16,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
-	'cypress-cucumber-preprocessor': {
-		nonGlobalStepDefinitions: true,
-	},
+	// add this line to enable cypress studio record and playback feature
 	experimentalStudio: true,
 	e2e: {
 		specPattern: '**/*.feature',
