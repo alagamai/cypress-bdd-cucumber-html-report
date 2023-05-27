@@ -19,6 +19,7 @@ module.exports = defineConfig({
 	'cypress-cucumber-preprocessor': {
 		nonGlobalStepDefinitions: true,
 	},
+	experimentalStudio: true,
 	e2e: {
 		specPattern: '**/*.feature',
 		setupNodeEvents,
