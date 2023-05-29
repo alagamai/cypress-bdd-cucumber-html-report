@@ -47,7 +47,7 @@ class autoPage {
 		this.elements.zip().type(faker.address.zipCode());
 	};
 	selectZone = () => {
-		cy.getRandomNumber(3513, 3612).then(rand => {
+		cy.getRandomNumber1(3513, 3612).then(rand => {
 			this.elements.zone().select(`${rand}`);
 		});
 	};

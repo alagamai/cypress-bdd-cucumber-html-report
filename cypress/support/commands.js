@@ -113,3 +113,10 @@ Cypress.Commands.add('getRandomNumber', (min, max) => {
 
 	cy.wrap(rand);
 });
+
+Cypress.Commands.add('getRandomNumber1', (min, max) => {
+	const randomId = Cypress._.random(min, max);
+	console.log(`randonId : ${randomId}`);
+
+	cy.wrap(randomId);
+});
