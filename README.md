@@ -7,13 +7,15 @@ The first thing we need to do is to setup our environment. So here are some thin
 VSCode: https://code.visualstudio.com/download </br>
 NPM: https://www.npmjs.com/get-npm </br>
 NodeJS: https://nodejs.org/en/download
+Integrate cucumber packages as per instruction given at https://github.com/alagamai/cypress-bdd-cucumber-pom-framework
 
 # Steps to install html report dependencies
 1. Go to - https://github.com/cucumber/json-formatter & https://github.com/cucumber/json-formatter/releases/tag/v19.0.0
 2. Download cucumber-json-formatter-darwin-amd64
 3. rename it to cucumber-json-formatter
-4. Place it in root directory of project
-5. Add the below links in package.json (just above dependencies)
+4. Make it executable with chmod +x cucumber-json-formatter
+5. Place it in root directory of project
+6. Add the below links in package.json (just above dependencies)
   "cypress-cucumber-preprocessor": {
     "json": {
       "enabled": true,
